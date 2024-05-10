@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body {
+    color: rgb(0, 0, 0);
+    background: url("Images/Background1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px,10%;
+    background: -webkit-linear-gradient(right,rgb(8, 8, 165), rgb(0, 0, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header p{
+    color:rgb(251, 255, 0);
+    font-weight: 600;
+    font-family:Lucida Sans;
+}
+.logo {
+    
+    font-size: 70px;
+    color:rgb(251, 255, 0);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    font-family: Lucida Sans;
+}
+.navbar a{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.navbar a:hover,
+.navbar a.active{    
+    color: yellow;
+
+}
+.Home{
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: blue;
+    border:solid;
+    margin-bottom: -1px;
+    border-radius: 20px;
+}
+.Home p{
+    margin: 20px;
+
+}
+.game-content p{
+        text-align: justify;
+        font-size: 25px;
+}
+.game-content img{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.Tips{
+    text-align: center;
+    margin: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: blue;
+    border:solid;
+    margin-top: -1px;
+    border-radius: 20px;
+}
+  .Tips img{
+    width: 1000px;
+    border-radius: 20px;
+  }
+  .Tips h1{
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 20px;
+  }
+  .Tips p{
+    text-align: justify;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  @media screen and (max-width=400px){
+    body{
+        width: 20%;
+    }
+    .header{
+        font-size:20%;
+    
+    }
+    .Home{
+        font-size: 20%;
+    }
+    .Tips{
+        font-size: 20%;
+    }
+}
